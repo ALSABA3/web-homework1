@@ -1,0 +1,39 @@
+nav {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000000c7;
+}
+.Nav-links {
+  margin: 0;
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.brand-name a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  font-size: xx-large;
+  font-weight: bold;
+  background: -webkit-linear-gradient(
+    right,
+    #56d8e4,
+    #9f01ea,
+    #56d8e4,
+    #9f01ea
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
+  font-weight: 800;
+}
